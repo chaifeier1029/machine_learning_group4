@@ -1,6 +1,6 @@
-
+import Model
 import numpy as np
-class NB:
+class NB(Model):
     '''朴素贝叶斯分类器'''
 
     def __init__(self, data, label):
