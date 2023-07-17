@@ -1,6 +1,6 @@
 import numpy as np
-
-class LinearRegression:
+import Model
+class LinearRegression(Model):
     def __init__(self):
         """初始化Linear Regression模型"""
         # 系数向量（θ1,θ2,.....θn）
