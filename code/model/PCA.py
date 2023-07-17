@@ -1,7 +1,7 @@
 import numpy as np
+import Model
 
-
-class PCA:
+class PCA(Model):
     def __init__(self, n_components):
         self.n_components = n_components
         self.components = None
